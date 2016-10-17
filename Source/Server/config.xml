@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<data>
+    <client ip="172.31.54.216">
+        <port>22</port>
+        <username>"Administrator"</username>
+        <password>"Ax2i=Mcqta"</password>
+        <OS>"Windows"</OS>
+        <mail>"jevalenciap@gmail.com"</mail>
+        <alert type="memory" limit="50" />
+        <alert type="cpu" limit="20" />
+    </client>
+    <client ip="172.31.55.49">
+        <port>22</port>
+        <username>"admin"</username>
+        <password>"3bu*.kj8"</password>
+        <OS>"Linux"</OS>
+        <mail>"jevalenciap@gmail.com"</mail>
+        <alert type="memory" limit="70" />
+        <alert type="cpu" limit="20%" />
+    </client>
+    <client ip="172.31.54.214">
+        <port>22</port>
+        <username>"admin3"</username>
+        <password>"33"</password>
+        <OS>"Windows"</OS>
+        <mail>"asa@asda.com"</mail>
+        <alert type="memory" limit="50%" />
+        <alert type="cpu" limit="20" />
+    </client>
+
+</data>

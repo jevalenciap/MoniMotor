@@ -1,0 +1,7 @@
+Steps to create the table in the database in Mysql:
+
+1)mysql -u root -p
+2)CREATE DATABASE crosswork;
+3)use crosswork;
+4)create table Logs ( IP varchar(20) NOT NULL, CPU varchar(20) NOT NULL, RAM varchar(20) NOT NULL, OS varchar(10) NOT NULL, Total_SecurityEvents VARCHAR(10), EventCategory VARCHAR(20), TimeLastEvent VARCHAR(20), SourceName VARCHAR(30), EVENTID VARCHAR(20), EVENTYPE VARCHAR(30) );
+5)Open the server.py and edit in line 126, the user, password, and host of the database. 
